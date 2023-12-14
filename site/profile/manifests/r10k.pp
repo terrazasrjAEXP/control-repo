@@ -1,6 +1,6 @@
 class profile::r10k {
   class {'r10k':
-    remote => 'https://github.com/joshsamuelson/control-repo',
+    remote => 'https://github.com/terrazasrjAEXP/control-repo',
   }
   class {'r10k::webhook::config':
     use_mcollective => false,
